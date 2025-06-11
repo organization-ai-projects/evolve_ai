@@ -1,0 +1,62 @@
+# Basiques Rust/Cargo
+/agents/
+/target/
+**/target/
+Cargo.lock
+**/Cargo.lock
+logs/
+*.log
+*.bin
+workspace/
+
+# Fichiers temporaires, compilations, dumps, traces
+*.dSYM
+*.swp
+*.swo
+*.tmp
+*.old
+*.orig
+
+# VSCodium, VSCode, Jetbrains, autres IDEs
+.vscode/
+.idea/
+*.iml
+
+# Dépendances externes (si tu utilises des vendor/)
+vendor/
+
+# Systèmes Windows/Mac/Linux
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.stackdump
+
+# Fichiers d’init, exports, replay, analytics
+*.csv
+*.json
+*.sqlite
+*.db
+*.bak
+
+# Sauvegardes de logs et workspace auto
+*.bak
+*.backup
+
+# Fichiers Python/Ruby/JS/Node (si tests hybrides)
+__pycache__/
+*.pyc
+node_modules/
+
+# Si jamais tu génères du code automatiquement ou en sandbox
+generated/
+sandbox/
+
+# Si tu ajoutes une conf de doc (mdBook, cargo doc, etc.)
+book/
+docs/
+doc/
+
+# Fichiers secrets (à ajouter si besoin !)
+.env
+.env.*
+secrets/
