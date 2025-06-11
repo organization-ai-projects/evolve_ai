@@ -1,7 +1,7 @@
 use std::path::{Path, PathBuf};
 
 // Définition des constantes pour les chemins
-pub const WORKSPACE_DIR: &str = "evolve_ai"; // Racine du workspace evolve_ai/
+pub const WORKSPACE_DIR: &str = "."; // Racine du projet (dossier courant)
 pub const ORCHESTRATOR_DIR: &str = "orchestrator"; // Sous-dossier orchestrator
 pub const AGENTS_DIR: &str = "agents"; // Sous-dossier agents
 pub const TEMPLATE_DIR: &str = "agent_template"; // Sous-dossier template des agents
