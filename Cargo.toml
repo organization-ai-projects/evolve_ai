@@ -1,5 +1,8 @@
 [workspace]
 resolver = "2"
 members = [
-    "orchestrator"
+    "orchestrator",
+    "git_syncer",
+    "ui",
+    "ws"
 ]
