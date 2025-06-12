@@ -1,0 +1,14 @@
+{
+    "Option<": "option_type",
+    "Result<": "result_type",
+    "String": "string_type",
+    "&str": "string_type",
+    "usize": "int_type",
+    "u32": "int_type",
+    "u64": "int_type",
+    "i32": "int_type",
+    "i64": "int_type",
+    "bool": "bool_type",
+    "&": "reference_type",
+    "<generic>": "generic_type"
+}

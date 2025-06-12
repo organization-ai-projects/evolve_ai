@@ -1,0 +1,12 @@
+[
+    (
+        file_keywords: ["main", "feature"],
+        op_types: ["rebase"],
+        message: "chore: rebase feature branch onto main"
+    ),
+    (
+        file_keywords: ["develop", "hotfix"],
+        op_types: ["rebase"],
+        message: "chore: rebase hotfix onto develop"
+    ),
+]

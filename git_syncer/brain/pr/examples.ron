@@ -1,0 +1,17 @@
+[
+    (
+        file_keywords: ["feature", "branch"],
+        op_types: ["pr"],
+        message: "chore: open pull request for feature branch"
+    ),
+    (
+        file_keywords: ["hotfix", "release"],
+        op_types: ["pr"],
+        message: "fix: open PR for hotfix release"
+    ),
+    (
+        file_keywords: ["main", "develop"],
+        op_types: ["pr"],
+        message: "chore: open PR to merge develop into main"
+    ),
+]

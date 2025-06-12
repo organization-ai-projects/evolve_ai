@@ -1,0 +1,8 @@
+[
+    "fn", "pub", "let", "mut", "const", "static", "struct", "enum", "impl", "trait",
+    "use", "mod", "crate", "super", "self", "Self", "as", "ref", "type", "where",
+    "match", "if", "else", "for", "while", "loop", "break", "continue", "return",
+    "move", "async", "await", "dyn", "unsafe", "extern", "macro_rules", "union",
+    "box", "in", "from", "to", "with", "default", "derive", "test", "cfg", "feature",
+    "allow", "deny", "warn", "panic", "unwrap", "expect", "Result", "Option", "Some", "None", "Ok", "Err"
+]
