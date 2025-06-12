@@ -1,0 +1,42 @@
+[
+    (
+        file_keywords: ["main", "lib"],
+        op_types: ["add"],
+        message: "feat: add main entry point"
+    ),
+    (
+        file_keywords: ["config", "parser"],
+        op_types: ["mod"],
+        message: "refactor: improve config parser"
+    ),
+    (
+        file_keywords: ["user", "auth"],
+        op_types: ["fix"],
+        message: "fix: correct user authentication bug"
+    ),
+    (
+        file_keywords: ["readme"],
+        op_types: ["mod"],
+        message: "docs: update README with usage instructions"
+    ),
+    (
+        file_keywords: ["api", "endpoint"],
+        op_types: ["add"],
+        message: "feat: add new API endpoint for stats"
+    ),
+    (
+        file_keywords: ["test", "ci"],
+        op_types: ["add"],
+        message: "test: add CI workflow for tests"
+    ),
+    (
+        file_keywords: ["cleanup", "deadcode"],
+        op_types: ["remove"],
+        message: "refactor: remove dead code"
+    ),
+    (
+        file_keywords: ["security", "vuln"],
+        op_types: ["fix"],
+        message: "fix: patch security vulnerability"
+    ),
+]

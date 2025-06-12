@@ -1,0 +1,17 @@
+[
+    (
+        file_keywords: ["main", "feature"],
+        op_types: ["merge"],
+        message: "merge: integrate feature branch into main"
+    ),
+    (
+        file_keywords: ["develop", "release"],
+        op_types: ["merge"],
+        message: "merge: release branch into develop"
+    ),
+    (
+        file_keywords: ["hotfix", "main"],
+        op_types: ["merge"],
+        message: "merge: hotfix into main"
+    ),
+]
